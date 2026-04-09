@@ -15,7 +15,7 @@ const language_1 = require("graphql/language");
 const error_1 = require("graphql/error");
 const type_1 = require("graphql/type");
 exports.EmailScalar = new type_1.GraphQLScalarType({
-    name: 'Email',
+    name: 'Email_ext',
     description: 'The Email scalar type represents E-Mail addresses compliant to RFC 822.',
     serialize(value) {
         return value;

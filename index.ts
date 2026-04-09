@@ -2,7 +2,6 @@ import {Field, InputType, Int} from "@nestjs/graphql";
 import {Kind} from "graphql/language";
 import {GraphQLError} from "graphql/error";
 import {GraphQLScalarType} from "graphql/type";
-import {isEmail} from "class-validator";
 
 
 
