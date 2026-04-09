@@ -7,7 +7,7 @@ import {isEmail} from "class-validator";
 
 
 export const EmailScalar = new GraphQLScalarType({
-    name: 'Email',
+    name: 'Email_ext',
 
     description:
         'The Email scalar type represents E-Mail addresses compliant to RFC 822.',
