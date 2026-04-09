@@ -1,0 +1,28 @@
+{
+  "name": "ppldo_dtos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppldo/dtos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ppldo/dtos/issues"
+  },
+  "homepage": "https://github.com/ppldo/dtos#readme",
+  "description": "",
+  "dependencies": {
+    "@nestjs/graphql": "^13.2.4",
+    "class-validator": "^0.14.4",
+    "graphql": "^16.13.2"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.2"
+  }
+}
